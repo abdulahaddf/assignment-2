@@ -5,6 +5,10 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+/* for all texts color */ 
+P{
+    color: #727272;
+}
 /*------------------
  Header style
 ------------------ */
@@ -14,19 +18,18 @@ header{
     height: 100vh;
     padding: 10px;
 }
-P{
-    color: #727272;
-}
+
+/* nav styles */
 .nav{
     
     display: flex;
     justify-content: space-between;
     gap: 10%;
     width: 70%;
-    margin: 40px auto 30px;
+    margin: 20px auto 30px;
 }
 .nav-left{
-   font-size: 35px;
+   font-size: 28px;
    font-weight:700; 
 }
 .nav-right{
@@ -67,7 +70,7 @@ P{
     margin: 20px 5px 20px 5px;
 }
 .banner-img img{
-    height: 50vh;
+    height: 60vh;
 }
 /* Feature style */
 .features , .feature-container{
@@ -132,7 +135,7 @@ P{
 .fact-container{
     display: flex;
     flex-direction:column ;
-    /* text-align: center; */
+    
 }
 .facts{
     margin-left: 100px;
@@ -173,11 +176,9 @@ P{
     margin: 100px auto;
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     line-height: 30px;
 }
 .goal-text{
-    /* width: 50%; */
     text-align:left;
 }
 .goal-text h1{
