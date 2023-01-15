@@ -10,9 +10,9 @@
 P {
   color: #727272;
 }
-h1{
-    font-size: 2.5rem;
-    font-weight: 700;
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
 }
 /*------------------
  Header style
@@ -39,7 +39,6 @@ header {
 .nav-right {
   font-size: 18px;
   color: #424242;
-  
 }
 .nav-right a {
   padding-right: 20px;
@@ -65,18 +64,16 @@ header {
   margin: 10px 0px 15px 0px;
 }
 .banner-info h1 {
-
   margin: 10px 0px 15px 0px;
 }
 .banner-info p {
-    font-size: 25px;
-    font-weight: 600;
+  font-size: 25px;
+  font-weight: 600;
   margin: 10px 0px 15px 0px;
 }
 .banner-img img {
-    width: 100%;
-  height:55vh;
-  
+  width: 100%;
+  height: 55vh;
 }
 /* Feature style */
 .features,
@@ -101,7 +98,6 @@ header {
   width: 50%;
 }
 .feature-info h1 {
-  
   padding: 0px 40px 20px 0px;
 }
 .feature-info p {
@@ -111,7 +107,6 @@ header {
 /* features description */
 
 .feature-description h1 {
-  
   border-left: 5px solid #ff900e;
   padding: 20px;
 }
@@ -143,12 +138,11 @@ header {
   flex-direction: column;
 }
 .facts {
-  margin-left:5%;
+  margin-left: 5%;
   padding: 50px;
   width: 40%;
 }
 .facts h1 {
-  
   margin-bottom: 15px;
 }
 .facts p {
@@ -186,7 +180,6 @@ header {
 }
 .goal-text h1 {
   margin-bottom: 30px;
-  
 }
 .goal-img img {
   height: 30vh;
@@ -205,7 +198,6 @@ header {
   margin: 10px auto;
 }
 .sponsors-text h1 {
-  
   margin-bottom: 20px;
 }
 .sponsors-logo {
@@ -226,113 +218,108 @@ footer p {
   padding: 40px;
 }
 /* Responsive for mobile */
-@media screen and (max-width:576px) {
-    *{
-        text-align: center;
-    }
-    h1{
-        font-size:2rem;
-    }
-    p{
-       font-size:.9rem ; 
-    }
-header{
-    width:100vw;
+@media screen and (max-width: 576px) {
+  * {
+    text-align: center;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 0.9rem;
+  }
+  header {
+    width: 100vw;
     height: 100vh;
-    
-}
-.nav{
+  }
+  .nav {
     flex-direction: column;
     gap: 15px;
-    text-align: center;  
-}
-.nav-right{
-    display: contents; 
-}
-.banner{
-  flex: 1;
-
-}
-.banner-img {
-height:20%;
-   
-}
-.banner-img img{
-    width:400px;
-    height:200px;
+    text-align: center;
+  }
+  .nav-right {
+    display: contents;
+  }
+  .banner {
+    flex: 1;
+  }
+  .banner-img {
+    height: 20%;
+  }
+  .banner-img img {
+    width: 400px;
+    height: 200px;
     border-radius: 8px;
-}
-.banner-info{
+  }
+  .banner-info {
     width: 80%;
-}
-.features{
+  }
+  .features {
     flex-direction: column;
-  gap: 0px;
-  margin: 80px auto 20px;
-}
+    gap: 0px;
+    margin: 80px auto 20px;
+  }
 
-.feature-img{
-   display: flex;
-   flex-direction: column;
-   padding: 50px  20px 20px 40px;  
-}
-.feature-info h1{
+  .feature-img {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px 20px 40px;
+  }
+  .feature-info h1 {
     padding: 0px;
-}
-.feature-info p{
+  }
+  .feature-info p {
     margin: 0px;
-}
-.feature-container{
+  }
+  .feature-container {
     flex-direction: column-reverse;
     width: 50%;
     gap: 50px;
     margin: 50px auto 20px;
-}
-.architect-img img{
+  }
+  .architect-img img {
     height: 60vh;
-
-}
-.button-2{
+  }
+  .button-2 {
     position: relative;
     bottom: 5px;
     left: 0px;
     width: 200px;
     height: 100px;
-}
-.fact-container{
-    margin-top:30px ;
+  }
+  .fact-container {
+    margin-top: 30px;
     align-items: center;
     text-align: center;
-}
-.facts{
-    margin:30px auto 30px;
+  }
+  .facts {
+    margin: 30px auto 30px;
     padding: 0px;
-}
-.achievements{
+  }
+  .achievements {
     flex-direction: column;
-}
-.goals{
+  }
+  .goals {
     flex-direction: column;
-}
-.goal-img img
-{   width: 100%;
+  }
+  .goal-img img {
+    width: 100%;
     height: 20vh;
     margin-left: 20px;
-}
-.goal-text p{
+  }
+  .goal-text p {
     text-align: left;
-}
-.sponsors{
+  }
+  .sponsors {
     flex-direction: column;
-}
-.sponsors-logo{
+  }
+  .sponsors-logo {
     width: 50%;
     flex-direction: column;
-}  
-footer{
-    width:80%;
+  }
+  footer {
+    width: 80%;
 
-    margin:20px auto 20px;
-}
-
+    margin: 20px auto 20px;
+  }
 }
