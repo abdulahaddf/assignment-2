@@ -311,6 +311,11 @@ height:20%;
 .goals{
     flex-direction: column;
 }
+.goal-img img
+{   width: 100%;
+    height: 20vh;
+    margin-left: 20px;
+}
 .sponsors{
     flex-direction: column;
 }
