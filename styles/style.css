@@ -323,5 +323,9 @@ height:20%;
     width: 50%;
     flex-direction: column;
 }  
+footer{
+    width:80%;
+    margin: 0px;
+}
 
 }
