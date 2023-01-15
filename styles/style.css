@@ -81,7 +81,7 @@ header {
   display: flex;
   align-items: center;
   width: 80%;
-  gap: 50px;
+  gap: 70px;
   margin: 100px auto 100px;
 }
 .feature-img {
@@ -127,10 +127,10 @@ header {
   border: none;
   width: 242px;
   height: 150px;
-  position: relative;
-  bottom: 150px;
-  left: 600px;
+  margin-top: -80px;
+  margin-left: -60px;
   border-radius: 8px;
+  z-index: 2;
 }
 /* facts style */
 .fact-container {
@@ -281,9 +281,7 @@ footer p {
     height: 60vh;
   }
   .button-2 {
-    position: relative;
-    bottom: 5px;
-    left: 0px;
+    margin: 15px;
     width: 200px;
     height: 100px;
   }
