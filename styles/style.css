@@ -317,6 +317,9 @@ height:20%;
     height: 20vh;
     margin-left: 20px;
 }
+.goal-text p{
+    text-align: left;
+}
 .sponsors{
     flex-direction: column;
 }
